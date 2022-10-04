@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="">
+        <title>EVENTO TECLADO</title>
+        <script>
+        /*  onKeyUp: exibe o caracter depois executa a ação
+
+            onKeyDown: executa a  ação e depois exibe o caracter
+
+            onKeyPress: executa a  ação e depois exibe o caracter
+            (exceto as teclas f1...f12, ALT, CTRL, SHIFT)
+        */
+
+            function p() {
+                var t = document.getElementById("x").value
+                alert(t)
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="x" onkeydown="p()" >
+    </body>
+</html>
